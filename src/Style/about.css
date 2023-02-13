@@ -1,0 +1,105 @@
+.about {
+    text-align: center;
+    font-size: 60px;
+    margin-top: 50px;
+    color: rgb(12, 243, 166);
+    text-shadow: 2px 2px 7px rgb(167, 168, 168);
+    font-weight: 550;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.main {
+    display: flex;
+    margin: 40px 0;
+    background: #2a2b2d;
+    padding: 60px;
+    margin-bottom: 60px !important;
+    color: white;
+    width: 80%;
+    margin: auto;
+}
+
+.main img {
+    margin-right: 80px;
+    border-radius: 6px;
+    height: 250px;
+    width: 170px;
+}
+
+.aboutMe {
+    display: flex;
+    flex-direction: column;
+}
+
+.aboutMe div {
+    margin: 10px;
+    font-size: 22px;
+}
+
+hr {
+    margin: 60px 90px;
+}
+
+.fav {
+    margin: 60px 0px;
+    width: 90%;
+    margin: auto;
+    background: #2a2b2d;
+
+}
+
+.fav div {
+    text-align: center;
+    color: rgb(255, 241, 225);
+    font-size: 60px;
+    font-weight: 550;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.drawing {
+    display: flex;
+    justify-content: center;
+}
+
+.drawing img {
+    height: 340px;
+    margin: 60px 30px;
+    border-radius: 6px;
+
+}
+
+@media only screen and (max-width: 1113px) {
+
+    .about {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    .aboutMe div {
+        font-size: 18px;
+    }
+
+    .main {
+        display: block;
+        padding: 20px;
+        width: calc(80% - 60px);
+        text-align: center;
+    }
+
+    .drawing {
+        display: block;
+    }
+
+    .drawing img {
+        width: 200px;
+        height: 250px;
+        margin: 30px;
+    }
+
+    .fav div {
+        font-size: 30px;
+    }
+
+}
+
+/* ........m-web........ */

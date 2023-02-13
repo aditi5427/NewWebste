@@ -1,0 +1,132 @@
+.main {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    min-height: 70vh;
+    width: 80%;
+    margin: auto;
+    margin-top: 50px;
+    border-radius: 9px;
+    background: rgba(241, 177, 177, 0.6);
+}
+
+.left {
+    width: 50%;
+    text-align: center;
+}
+
+.left div {
+    margin-left: 40px;
+    margin-top: 10px;
+    font-size: 18px;
+    color: rgb(121, 8, 121);
+    text-align: left;
+}
+
+.left input {
+    width: 80%;
+    margin-bottom: 10px;
+    width: calc(100% - 80px);
+    height: 20px;
+    border: 1px solid rgb(156, 156, 156);
+    background: rgb(247, 227, 247);
+    border-radius: 2px;
+
+}
+
+#message {
+    width: 80%;
+    height: 150px;
+    border-radius: 2px;
+    background: rgb(253, 236, 252);
+}
+
+button {
+    /* float: right; */
+    margin-right: 20px;
+    margin-top: 20px;
+    padding: 5px 20px;
+    font-size: 18px;
+    color: purple;
+    border: 2px solid rgb(173, 12, 173);
+    border-radius: 5px;
+}
+
+button:hover {
+    color: white;
+    background: rgb(173, 12, 173);
+}
+
+
+.right {
+    display: block;
+    background-color: rgb(243, 204, 247);
+    width: 50%;
+    min-height: 70vh;
+    border-radius: 0px 5px 5px 0;
+}
+
+#contact {
+    margin: 10px 20px;
+    color: rgb(121, 8, 121);
+    font-size: 47px;
+    margin-bottom: 20px;
+    font-weight: 550;
+
+}
+
+a {
+    text-decoration: unset;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    padding: 5px;
+    margin-left: 20px;
+    margin-bottom: 10px;
+    color: black;
+}
+
+.social img {
+    height: 18px;
+    margin-right: 10px;
+}
+
+.social:hover {
+    width: fit-content;
+    border: 2px solid rgb(71, 70, 70);
+    padding: 3px;
+    width: 100px;
+    border-radius: 4px;
+    background-color: rgb(126, 112, 139);
+}
+
+@media only screen and (max-width: 800px) {
+    .main {
+        flex-direction: column;
+        width: 90%;
+        margin-bottom: 100px;
+    }
+
+    .left {
+        margin: 50px 0;
+        width: 100%;
+    }
+
+    .left div {
+        margin: unset;
+        text-align: center;
+    }
+
+    #contact {
+        margin: unset;
+        margin-bottom: 20px;
+    }
+
+    .right {
+        background-color: unset;
+        margin: 50px 0;
+        min-height: unset;
+    }
+}

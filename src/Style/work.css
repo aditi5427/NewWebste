@@ -1,0 +1,83 @@
+.titlePinkBackg {
+    position: absolute;
+    top: 90px;
+    left: 50px;
+    background: rgb(182, 98, 98);
+    z-index: -1;
+    height: 140px;
+    width: 240px;
+
+}
+
+.titleGreenBackg {
+    position: absolute;
+    top: 120px;
+    left: 200px;
+    height: 130px;
+    background: rgb(53, 161, 107);
+    width: 240px;
+    z-index: -2;
+}
+
+.text {
+    color: white;
+    margin-top: 40px;
+    margin-left: 70px;
+    font-size: 65px;
+    z-index: 1;
+    margin-bottom: 50px;
+}
+
+.text div {
+    margin-top: 7px;
+    font-size: 22px;
+    z-index: 30;
+}
+
+.container {
+    width: 70%;
+    margin: auto;
+    background: rgb(88, 88, 88);
+    border-radius: 7px;
+    text-align: center;
+}
+
+.containerBtn {
+    width: 40%;
+    padding: 7px 60px !important;
+    color: rgb(52, 116, 180);
+    background: white;
+    font-weight: bold;
+    border-radius: 6px;
+    border: 3px solid rgb(52, 116, 180);
+    font-size: 25px;
+    margin: auto;
+}
+
+.container img {
+    width: 80%;
+    margin-top: 55px;
+}
+
+@media only screen and (max-width: 890px) {
+    .titlePinkBackg {
+        display: none;
+    }
+
+    .titleGreenBackg {
+        display: none;
+    }
+
+    .container {
+        width: 90% !important;
+    }
+
+    .text {
+        color: white;
+        margin-top: 40px;
+        margin-left: 40px;
+        font-size: 65px;
+        z-index: 1;
+        margin-bottom: 50px;
+    }
+}
