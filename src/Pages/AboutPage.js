@@ -15,10 +15,10 @@ function AboutPage() {
                     <div>Aditi Suman</div>
                 </div>
                 <div className="navChild">
-                    <div><a href="./index.html">Home</a></div>
-                    <div><a href="./aboutPage.html">About</a></div>
-                    <div><a href="./work.html">Work</a></div>
-                    <div><a href="./contact.html">Contact</a></div>
+                    <div><a href="/">Home</a></div>
+                    <div><a href="/about">About</a></div>
+                    <div><a href="/works">Work</a></div>
+                    <div><a href="/contact">Contact</a></div>
                 </div>
             </div>
 
@@ -32,19 +32,16 @@ function AboutPage() {
                     <div>I have also learned some programming languages like java, c++ and c programming</div>
                 </div>
             </div>
-            <hr>
+            <hr />
 
-                <div className="fav">
-                    <div>My favourite artworks</div>
-                    <div className="drawing">
-                        <img src={mandala} alt="" />
-                        <img src={pooh} alt="" />
-                        <img src={anime} alt="" />
-                    </div>
+            <div className="fav">
+                <div>My favourite artworks</div>
+                <div className="drawing">
+                    <img src={mandala} alt="" />
+                    <img src={pooh} alt="" />
+                    <img src={anime} alt="" />
                 </div>
-
-
-            </hr>
+            </div>
         </>
     );
 }
