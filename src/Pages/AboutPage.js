@@ -8,6 +8,7 @@ import pooh from '../Image/pooh.jpg';
 import anime from '../Image/anime.jpg';
 
 function AboutPage() {
+
     return (
         <>
             <div className="nav">
