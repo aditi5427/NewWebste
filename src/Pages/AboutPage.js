@@ -16,7 +16,7 @@ function AboutPage() {
                 </div>
                 <div className="navChild">
                     <div><a href="/">HomePage</a></div>
-                    <div><a href="/about">About</a></div>
+                    <div><a href="/about">AboutPages</a></div>
                     <div><a href="/works">Work</a></div>
                     <div><a href="/contact">Contact</a></div>
                 </div>
