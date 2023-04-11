@@ -15,7 +15,7 @@ function AboutPage() {
                     <div>Aditi Suman</div>
                 </div>
                 <div className="navChild">
-                    <div><a href="/">Home</a></div>
+                    <div><a href="/">HomePage</a></div>
                     <div><a href="/about">About</a></div>
                     <div><a href="/works">Work</a></div>
                     <div><a href="/contact">Contact</a></div>
