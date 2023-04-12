@@ -1,4 +1,5 @@
 import React from 'react';
+import Nav from './Nav'
 import '../Style/bar.css';
 import '../Style/about.css';
 
@@ -15,12 +16,7 @@ function AboutPage() {
                 <div className="navFirstChild">
                     <div>Aditi Suman</div>
                 </div>
-                <div className="navChild">
-                    <div><a href="/">HomePage</a></div>
-                    <div><a href="/about">AboutPages</a></div>
-                    <div><a href="/works">Work</a></div>
-                    <div><a href="/contact">Contact</a></div>
-                </div>
+                <Nav />
             </div>
 
             <div className="about">About me</div>
